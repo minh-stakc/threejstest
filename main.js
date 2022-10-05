@@ -12,7 +12,7 @@ function init() {
 
   // RGBE-Loader allows to load binary texture formats (rgbe, hdr)
   new THREE.RGBELoader().load(
-    'texture/satara_night_2k.hdr',
+    'satara_night_2k.hdr',
     function (hdrmap) {
       let envmap = envmaploader.fromCubemap(hdrmap);
 
